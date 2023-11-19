@@ -8,7 +8,7 @@ import design.pattern.app.strategy.case1.transport.RoadTransport;
 import design.pattern.app.strategy.case1.transport.TrackTransport;
 import design.pattern.app.strategy.case1.transport.Transport;
 
-public class ClientTest {
+public class CaseTest {
 
 	@Test
 	void Client() {

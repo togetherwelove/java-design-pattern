@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import design.pattern.app.strategy.case2.payment.PurchaseService;
 
-public class ClientTest {
+public class CaseTest {
 
 	@Test
 	void Client() {
