@@ -1,4 +1,4 @@
-package design.pattern.app.singleton.case1;
+package design.pattern.app.singleton;
 
 public class Card {
 	

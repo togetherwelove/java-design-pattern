@@ -7,11 +7,11 @@ import static org.mockito.Mockito.verify;
 
 import org.junit.jupiter.api.Test;
 
-import design.pattern.app.proxy.Aspect;
-import design.pattern.app.proxy.Logging;
 import design.pattern.app.proxy.Printable;
 import design.pattern.app.proxy.PrinterProxy;
-import design.pattern.app.proxy.UserAuth;
+import design.pattern.app.proxy.aspect.Aspect;
+import design.pattern.app.proxy.aspect.Logging;
+import design.pattern.app.proxy.aspect.UserAuth;
 
 public class ProxyTest {
 

@@ -1,4 +1,4 @@
-package design.pattern.app.proxy;
+package design.pattern.app.proxy.aspect;
 
 public interface Aspect {
 	public void before();

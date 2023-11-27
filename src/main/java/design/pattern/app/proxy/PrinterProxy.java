@@ -2,6 +2,8 @@ package design.pattern.app.proxy;
 
 import java.util.List;
 
+import design.pattern.app.proxy.aspect.Aspect;
+
 public class PrinterProxy implements Printable {
 	
 	private String printerName;

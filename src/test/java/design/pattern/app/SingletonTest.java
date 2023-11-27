@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import design.pattern.app.singleton.case1.Card;
+import design.pattern.app.singleton.Card;
 
 public class SingletonTest {
 

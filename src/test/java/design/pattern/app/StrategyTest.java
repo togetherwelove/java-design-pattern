@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test;
 import design.pattern.app.strategy.case1.transport.RoadTransport;
 import design.pattern.app.strategy.case1.transport.TrackTransport;
 import design.pattern.app.strategy.case1.transport.Transport;
-import design.pattern.app.strategy.case2.PayCard;
-import design.pattern.app.strategy.case2.PayCash;
+import design.pattern.app.strategy.case2.Card;
+import design.pattern.app.strategy.case2.Cash;
 import design.pattern.app.strategy.case2.payment.PurchaseService;
 
 public class StrategyTest {
@@ -36,10 +36,10 @@ public class StrategyTest {
 	void PurchaseServiceTest() {
 		PurchaseService purchaseService = new PurchaseService();
 		
-		String cardResult = purchaseService.pay(new PayCard());
+		String cardResult = purchaseService.pay(new Card());
 		assertEquals("pay card", cardResult);
 		
-		String cashResult = purchaseService.pay(new PayCash());
+		String cashResult = purchaseService.pay(new Cash());
 		assertEquals("pay cash", cashResult);
 	}
 }
