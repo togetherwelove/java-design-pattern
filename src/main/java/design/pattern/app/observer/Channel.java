@@ -12,7 +12,7 @@ public class Channel {
 	
 	private User publisher;
 	private String channelName;
-	List<Observable> subscribers = new ArrayList<Observable>();
+	List<User> subscribers = new ArrayList<User>();
 	
 	public Channel(String channelName) {
 		this.channelName = channelName;
@@ -23,7 +23,7 @@ public class Channel {
 		this.setPublisher(publisher);
 	}
 
-	public void subscribe(Observable subscriber) {
+	public void subscribe(User subscriber) {
 		subscribers.add(subscriber);
 	}
 	

@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
+import design.pattern.app.observer.Broker;
 import design.pattern.app.observer.Channel;
 import design.pattern.app.observer.User;
 
@@ -12,7 +13,7 @@ public class ObserverTest {
 	// 옵저버 패턴: 구독자, 발행자가 긴밀히 연관되어 있을 때 사용
 	// 	따라서 동일 서버 내에서만 사용 가능
 	@Test
-	void Observer() {
+	void Observer_Pattern() {
 		Channel channel = new Channel("미스터비스트");
 		
 		User dean = new User("dean");
@@ -35,7 +36,7 @@ public class ObserverTest {
 	// 	중간에 브로커 소프트웨어가 연결시켜준다.
 	// 	전달 정보를 topic이라고 한다.
 	@Test
-	void PubSub() {
+	void Publisher_Subscriber_Pattern() {
 		User publisher = new User("john");
 		Channel channel = new Channel("퓨디파이", publisher);
 		
